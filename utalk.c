@@ -56,7 +56,7 @@ int main(int argc, char const *argv[])
     print_colored(KNRM, "Enter a message:");
     const char *ip = argv[1];
     int port = 1234;
-    if(argc >= 4){
+    if(argc >= 3){
         port = atoi(argv[2]);
     }
 
